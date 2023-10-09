@@ -1,0 +1,40 @@
+# 忽略文件和目录
+
+# 编译生成的文件
+/build
+/dist
+/out
+
+# 依赖管理工具生成的文件和目录
+/node_modules
+/yarn-error.log
+/.pnp
+
+# IDE和编辑器生成的文件和目录
+/.vscode
+/.idea
+/.vs
+/.sass-cache
+/.cache
+/.DS_Store
+/.env
+
+# 测试和代码覆盖率报告
+/coverage
+/.nyc_output
+
+# 运行时生成的文件和目录
+/.run
+/run.js
+
+# 忽略已经跟踪的文件的修改
+*.log
+*.db
+*.sqlite
+
+# 忽略敏感信息
+.env
+
+# 特定的操作系统文件和目录
+.DS_Store
+Thumbs.db
